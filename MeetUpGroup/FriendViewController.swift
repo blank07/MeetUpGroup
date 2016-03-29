@@ -12,7 +12,7 @@ class FriendViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("friend")
+        
         // Do any additional setup after loading the view.
     }
 

@@ -12,7 +12,7 @@ class EventViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("Event")
+        
         // Do any additional setup after loading the view.
     }
 
