@@ -7,6 +7,7 @@
 //
 
 import Foundation
+//dadfafdadfadfsfsa
 class UserInfo {
     var userInfo: Dictionary<String, String> = [
         "email" : "abc@gamil.com",
