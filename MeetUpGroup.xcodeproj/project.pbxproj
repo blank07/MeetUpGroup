@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		230A859C1CB8D677002F8461 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230A859B1CB8D677002F8461 /* SignUpController.swift */; };
+		230A859E1CB8D67A002F8461 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230A859D1CB8D67A002F8461 /* ViewController.swift */; };
+		230A85A41CB8D7D3002F8461 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230A85A31CB8D7D3002F8461 /* LoginModel.swift */; };
+		230A85A61CB8D7D6002F8461 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230A85A51CB8D7D6002F8461 /* UserInfo.swift */; };
+		231B33621CBA0CB700CCE8F8 /* GroupCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B33611CBA0CB700CCE8F8 /* GroupCategoriesViewController.swift */; };
+		231B33641CBA1E6500CCE8F8 /* EventCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B33631CBA1E6500CCE8F8 /* EventCategoriesViewController.swift */; };
+		231B33661CBA218600CCE8F8 /* ChooseHobbies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B33651CBA218600CCE8F8 /* ChooseHobbies.swift */; };
+		231B33681CBA21A800CCE8F8 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B33671CBA21A800CCE8F8 /* CollectionViewCell.swift */; };
+		231B336A1CBA362300CCE8F8 /* CollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B33691CBA362300CCE8F8 /* CollectionViewCell2.swift */; };
 		2365DF761CAA80CC0015F899 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2365DF751CAA80CC0015F899 /* AppDelegate.swift */; };
 		2365DF781CAA80CC0015F899 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2365DF771CAA80CC0015F899 /* MeViewController.swift */; };
 		2365DF7A1CAA80CC0015F899 /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2365DF791CAA80CC0015F899 /* GroupViewController.swift */; };
@@ -29,14 +38,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		230A859B1CB8D677002F8461 /* SignUpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		230A859D1CB8D67A002F8461 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		230A85A31CB8D7D3002F8461 /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		230A85A51CB8D7D6002F8461 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		231B33611CBA0CB700CCE8F8 /* GroupCategoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupCategoriesViewController.swift; sourceTree = "<group>"; };
+		231B33631CBA1E6500CCE8F8 /* EventCategoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventCategoriesViewController.swift; path = ../EventCategoriesViewController.swift; sourceTree = "<group>"; };
+		231B33651CBA218600CCE8F8 /* ChooseHobbies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseHobbies.swift; sourceTree = "<group>"; };
+		231B33671CBA21A800CCE8F8 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		231B33691CBA362300CCE8F8 /* CollectionViewCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell2.swift; sourceTree = "<group>"; };
 		2365DF721CAA80CC0015F899 /* MeetUpGroup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetUpGroup.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2365DF751CAA80CC0015F899 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2365DF751CAA80CC0015F899 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = MeetUpGroup/AppDelegate.swift; sourceTree = "<group>"; };
 		2365DF771CAA80CC0015F899 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 		2365DF791CAA80CC0015F899 /* GroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
 		2365DF7C1CAA80CC0015F899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2365DF7E1CAA80CC0015F899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2365DF7E1CAA80CC0015F899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = MeetUpGroup/Assets.xcassets; sourceTree = "<group>"; };
 		2365DF811CAA80CC0015F899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2365DF831CAA80CC0015F899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2365DF831CAA80CC0015F899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = MeetUpGroup/Info.plist; sourceTree = "<group>"; };
 		2365DF881CAA80CC0015F899 /* MeetUpGroupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetUpGroupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2365DF8C1CAA80CC0015F899 /* MeetUpGroupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetUpGroupUITests.swift; sourceTree = "<group>"; };
 		2365DF8E1CAA80CC0015F899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,6 +80,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		230A859F1CB8D6FF002F8461 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				230A859D1CB8D67A002F8461 /* ViewController.swift */,
+				230A859B1CB8D677002F8461 /* SignUpController.swift */,
+				2365DF991CAA841D0015F899 /* EventViewController.swift */,
+				231B33671CBA21A800CCE8F8 /* CollectionViewCell.swift */,
+				231B33651CBA218600CCE8F8 /* ChooseHobbies.swift */,
+				2365DF9B1CAA84950015F899 /* FriendViewController.swift */,
+				2365DF791CAA80CC0015F899 /* GroupViewController.swift */,
+				2365DF771CAA80CC0015F899 /* MeViewController.swift */,
+				231B33631CBA1E6500CCE8F8 /* EventCategoriesViewController.swift */,
+				231B33611CBA0CB700CCE8F8 /* GroupCategoriesViewController.swift */,
+				231B33691CBA362300CCE8F8 /* CollectionViewCell2.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		230A85A01CB8D70A002F8461 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				230A85A51CB8D7D6002F8461 /* UserInfo.swift */,
+				230A85A31CB8D7D3002F8461 /* LoginModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		230A85A11CB8D74F002F8461 /* Supporting File */ = {
+			isa = PBXGroup;
+			children = (
+				2365DF831CAA80CC0015F899 /* Info.plist */,
+				2365DF751CAA80CC0015F899 /* AppDelegate.swift */,
+				2365DF801CAA80CC0015F899 /* LaunchScreen.storyboard */,
+				2365DF7E1CAA80CC0015F899 /* Assets.xcassets */,
+			);
+			name = "Supporting File";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		230A85A21CB8D77B002F8461 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2365DF7B1CAA80CC0015F899 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		2365DF691CAA80CC0015F899 = {
 			isa = PBXGroup;
 			children = (
@@ -83,15 +148,10 @@
 		2365DF741CAA80CC0015F899 /* MeetUpGroup */ = {
 			isa = PBXGroup;
 			children = (
-				2365DF751CAA80CC0015F899 /* AppDelegate.swift */,
-				2365DF771CAA80CC0015F899 /* MeViewController.swift */,
-				2365DF791CAA80CC0015F899 /* GroupViewController.swift */,
-				2365DF7B1CAA80CC0015F899 /* Main.storyboard */,
-				2365DF7E1CAA80CC0015F899 /* Assets.xcassets */,
-				2365DF801CAA80CC0015F899 /* LaunchScreen.storyboard */,
-				2365DF831CAA80CC0015F899 /* Info.plist */,
-				2365DF991CAA841D0015F899 /* EventViewController.swift */,
-				2365DF9B1CAA84950015F899 /* FriendViewController.swift */,
+				230A85A21CB8D77B002F8461 /* View */,
+				230A85A01CB8D70A002F8461 /* Model */,
+				230A859F1CB8D6FF002F8461 /* Controller */,
+				230A85A11CB8D74F002F8461 /* Supporting File */,
 			);
 			path = MeetUpGroup;
 			sourceTree = "<group>";
@@ -211,8 +271,17 @@
 				2365DF7A1CAA80CC0015F899 /* GroupViewController.swift in Sources */,
 				2365DF9A1CAA841D0015F899 /* EventViewController.swift in Sources */,
 				2365DF761CAA80CC0015F899 /* AppDelegate.swift in Sources */,
+				231B336A1CBA362300CCE8F8 /* CollectionViewCell2.swift in Sources */,
+				231B33661CBA218600CCE8F8 /* ChooseHobbies.swift in Sources */,
 				2365DF781CAA80CC0015F899 /* MeViewController.swift in Sources */,
+				230A859E1CB8D67A002F8461 /* ViewController.swift in Sources */,
+				230A85A41CB8D7D3002F8461 /* LoginModel.swift in Sources */,
+				231B33621CBA0CB700CCE8F8 /* GroupCategoriesViewController.swift in Sources */,
+				231B33681CBA21A800CCE8F8 /* CollectionViewCell.swift in Sources */,
+				231B33641CBA1E6500CCE8F8 /* EventCategoriesViewController.swift in Sources */,
 				2365DF9C1CAA84950015F899 /* FriendViewController.swift in Sources */,
+				230A85A61CB8D7D6002F8461 /* UserInfo.swift in Sources */,
+				230A859C1CB8D677002F8461 /* SignUpController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +318,7 @@
 				2365DF811CAA80CC0015F899 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = MeetUpGroup;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -402,6 +472,7 @@
 				2365DF931CAA80CC0015F899 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2365DF941CAA80CC0015F899 /* Build configuration list for PBXNativeTarget "MeetUpGroupUITests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +481,7 @@
 				2365DF961CAA80CC0015F899 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

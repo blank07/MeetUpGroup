@@ -29,8 +29,66 @@ class MeetUpGroupUITests: XCTestCase {
     }
     
     func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        // Get a reference of app
+        let app = XCUIApplication()
+        
+        // Test that the initial label text
+        var string = app.staticTexts.elementMatchingType(.Any, identifier: "Password:").label
+        XCTAssertEqual(string, "Password:")
+        
+        // Test that there is no image dispayed on the view
+        XCTAssertEqual(app.images.count, 0)
+        
+        // Test that there is only 2 buttons on the view
+        XCTAssertEqual(app.buttons.count, 2)
+        
+        //nevigation
+        
+        XCUIDevice.sharedDevice().orientation = .Portrait
+        
+        let typeInAnEmailAddressTextField = app.textFields["Type in an email address"]
+        typeInAnEmailAddressTextField.tap()
+        typeInAnEmailAddressTextField.typeText("abc")
+        
+        let moreNumbersKey = app.keys["more, numbers"]
+        moreNumbersKey.tap()
+        typeInAnEmailAddressTextField.typeText("@")
+        
+        let moreLettersKey = app.keys["more, letters"]
+        moreLettersKey.tap()
+        typeInAnEmailAddressTextField.typeText("gmail")
+        moreNumbersKey.tap()
+        typeInAnEmailAddressTextField.typeText(".")
+        moreLettersKey.tap()
+        typeInAnEmailAddressTextField.typeText("com")
+        
+        let typeInYourPasswordTextField = app.textFields["Type in your password"]
+        typeInYourPasswordTextField.tap()
+        typeInYourPasswordTextField.typeText("abc")
+        app.otherElements.containingType(.StaticText, identifier:"MeetUp Group").element.tap()
+        app.buttons["Login"].tap()
+        
+        
+
+        
+        // Test the Name label
+        string = app.staticTexts.elementMatchingType(.Any, identifier: "Name").label
+        XCTAssertEqual(string, "Name")
+        
+        let meNavigationBar = app.navigationBars["Me"]
+        
+        var editButton = meNavigationBar.buttons["Edit"]
+        var buttonLabel = editButton.label
+        XCTAssertEqual(buttonLabel,  "Edit")
+        
+        //The title of the button changed after tapped
+        XCTAssertEqual(editButton.exists,true)
+        editButton.tap()
+        XCTAssertEqual(editButton.exists,false)
+        
+        editButton = meNavigationBar.buttons["Confirm"]
+        buttonLabel = editButton.label
+        XCTAssertEqual(buttonLabel,  "Confirm")
     }
     
 }
